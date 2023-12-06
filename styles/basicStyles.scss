@@ -1,0 +1,52 @@
+$colores: (
+  fondo-footer: #f2f2f2,
+  enlaces: #333,
+  enlaces-hover: #555,
+);
+
+$google-fonts-url: 'https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap';
+
+@import url($google-fonts-url);
+
+footer {
+  background-color: map-get($colores, fondo-footer);
+  padding: 40px 0;
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .container {
+    .row {
+      text-align: center;
+
+      @for $i from 1 through 3 {
+        .col-md-4 {
+          margin-bottom: 20px;
+
+          h5 {
+            color: map-get($colores, enlaces);
+          }
+
+          ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+              margin-bottom: 10px;
+
+              a {
+                text-decoration: none;
+                color: map-get($colores, enlaces);
+
+                &:hover {
+                  color: map-get($colores, enlaces-hover);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

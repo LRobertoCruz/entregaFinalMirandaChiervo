@@ -1,0 +1,31 @@
+.nosotros-container {
+  position: relative;
+  height: 100vh;
+  background: url("../img/nosotros-background.jpeg") center/cover fixed;
+  overflow: hidden;
+}
+.nosotros-container .nosotros-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+.nosotros-container .nosotros-info .nosotros-titulo {
+  font-size: 3em;
+  color: #000;
+  margin-bottom: 10px;
+}
+.nosotros-container .nosotros-info .nosotros-leyenda {
+  font-size: 1.5em;
+  color: #000;
+  margin-bottom: 10px;
+}
+.nosotros-container .nosotros-info .nosotros-container-text {
+  font-size: 1em;
+  color: #000;
+}
+
+/*# sourceMappingURL=nosotros.css.map */

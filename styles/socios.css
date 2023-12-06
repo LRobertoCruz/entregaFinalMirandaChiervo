@@ -1,0 +1,85 @@
+.products-title {
+  margin: 4rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+  justify-content: center;
+}
+.product-container .product-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 25rem;
+}
+.product-container .product-card:hover {
+  transform: scale(1.05);
+}
+.product-container .product-card .img-container img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+.product-container .product-card p {
+  font-size: 1.2em;
+  color: #ff6600;
+  margin: 10px 0;
+}
+.product-container .product-card .btn-container button, .product-container .product-card .socios .socios-container .socio button, .socios .socios-container .product-container .product-card .socio button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.product-container .product-card .btn-container button:hover, .product-container .product-card .socios .socios-container .socio button:hover, .socios .socios-container .product-container .product-card .socio button:hover {
+  background-color: #3d8b40;
+}
+@media (max-width: 767px) {
+  .product-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+.socios {
+  padding: 4rem 0;
+}
+.socios .socios-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.socios .socios-container .socio {
+  width: calc(50% - 2rem);
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.socios .socios-container .socio:hover {
+  transform: scale(1.05);
+}
+.socios .socios-container .socio .socio-img img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+.socios .socios-container .socio p {
+  font-size: 1.2em;
+  color: #ff6600;
+  margin: 10px 0;
+}
+@media (max-width: 767px) {
+  .socios .socios-container .socio {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=socios.css.map */

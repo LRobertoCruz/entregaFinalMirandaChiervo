@@ -1,0 +1,41 @@
+.sucursales-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sucursales-container .sucursal-card {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.sucursales-container .sucursal-card .sucursal-img img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+.sucursales-container .sucursal-card .sucursal-title {
+  padding: 10px;
+  text-align: center;
+}
+.sucursales-container .sucursal-card .sucursal-title h4 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.sucursales-container .sucursal-card .text-center {
+  text-align: center;
+}
+.sucursales-container .sucursal-card .text-center .ir-a-maps {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.sucursales-container .sucursal-card .text-center .ir-a-maps:hover {
+  background-color: #2980b9;
+}
+
+/*# sourceMappingURL=contacto.css.map */

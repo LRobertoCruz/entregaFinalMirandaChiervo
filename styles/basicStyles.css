@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+footer {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+footer body {
+  font-family: "Roboto", sans-serif;
+}
+footer .container .row {
+  text-align: center;
+}
+footer .container .row .col-md-4 {
+  margin-bottom: 20px;
+}
+footer .container .row .col-md-4 h5 {
+  color: #333;
+}
+footer .container .row .col-md-4 ul {
+  list-style: none;
+  padding: 0;
+}
+footer .container .row .col-md-4 ul li {
+  margin-bottom: 10px;
+}
+footer .container .row .col-md-4 ul li a {
+  text-decoration: none;
+  color: #333;
+}
+footer .container .row .col-md-4 ul li a:hover {
+  color: #555;
+}
+footer .container .row .col-md-4 {
+  margin-bottom: 20px;
+}
+footer .container .row .col-md-4 h5 {
+  color: #333;
+}
+footer .container .row .col-md-4 ul {
+  list-style: none;
+  padding: 0;
+}
+footer .container .row .col-md-4 ul li {
+  margin-bottom: 10px;
+}
+footer .container .row .col-md-4 ul li a {
+  text-decoration: none;
+  color: #333;
+}
+footer .container .row .col-md-4 ul li a:hover {
+  color: #555;
+}
+footer .container .row .col-md-4 {
+  margin-bottom: 20px;
+}
+footer .container .row .col-md-4 h5 {
+  color: #333;
+}
+footer .container .row .col-md-4 ul {
+  list-style: none;
+  padding: 0;
+}
+footer .container .row .col-md-4 ul li {
+  margin-bottom: 10px;
+}
+footer .container .row .col-md-4 ul li a {
+  text-decoration: none;
+  color: #333;
+}
+footer .container .row .col-md-4 ul li a:hover {
+  color: #555;
+}
+
+/*# sourceMappingURL=basicStyles.css.map */

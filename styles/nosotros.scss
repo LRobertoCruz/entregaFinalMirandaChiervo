@@ -1,0 +1,35 @@
+$background-image-url: '../img/nosotros-background.jpeg';
+
+.nosotros-container {
+  position: relative;
+  height: 100vh;
+  background: url('#{$background-image-url}') center/cover fixed;
+  overflow: hidden;
+
+  .nosotros-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+
+    .nosotros-titulo {
+      font-size: 3em;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .nosotros-leyenda {
+      font-size: 1.5em;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .nosotros-container-text {
+      font-size: 1em;
+      color: #000;
+    }
+  }
+}
